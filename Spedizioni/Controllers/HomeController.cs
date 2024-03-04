@@ -78,8 +78,12 @@ namespace Spedizioni.Controllers
             }
         }
 
+        public ActionResult InserisciSpedizione()
+        {
+            return View();
+        }
+
     }
 
 
-}
 }
